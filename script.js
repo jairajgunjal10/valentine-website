@@ -7,3 +7,10 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
+const yesBtn = document.querySelector(".yes");
+const roseContainer = document.getElementById("roseContainer");
+
+yesBtn.addEventListener("click", () => {
+  roseContainer.classList.remove("hidden");
+});
+
