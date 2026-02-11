@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3d7dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 60px 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+.emoji {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.yes {
+  background: #ff4d6d;
+  color: white;
+}
+
+.no {
+  background: #ddd;
+}
+
+.yes:hover {
+  transform: scale(1.1);
+}
+
+.no:hover {
+  transform: scale(1.1);
+}
+
+.hint {
+  margin-top: 15px;
+  color: #ff4d6d;
+  font-size: 14px;
+}
